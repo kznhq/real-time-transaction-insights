@@ -2,10 +2,6 @@
 Project to learn developing end-to-end ML systems combining data streaming/processing pipelines, embeddings-based retrieval, and distributed services with Go, Python, Kafka, Flink, PostgreSQL and pgvector, and gRPC.
 Stretch goal is adding LLM for natural language queries and RAG experience.
 
-I know I need a better name.
-
-Choosing to start this during the school year was a move but I want to try and work on this in my free time. 
-
 ## Pipeline Plan
 - Simulated transactions are published to Kafka
 - Flink does some processing/calculations on that data (ex. revenue, average transaction amount, etc)
@@ -19,8 +15,3 @@ Choosing to start this during the school year was a move but I want to try and w
 - RAG service does embedding of query, searching database, building prompt, asking LLM, streaming back tokens over gRPC
 - Backend takes streamed tokens and sends them back to the frontend
 - Frontend displays the tokens as it gets them
-
-## Hosting Options
-- Kafka: Hard to find fully free Kafka hosting providers (most are 30 day trials, alternative would be doing it in a free VM on some cloud provider), might self host and record demo video?
-- Vector DB: Pinecone?
-- Other services: could be in other VMs in cloud providers or bare minimum all self host and record demo video
