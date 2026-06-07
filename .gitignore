@@ -1,1 +1,21 @@
-.git
+# Secrets / local config
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Go
+*.exe
+*.test
+*.out
+
+# Java / Maven
+target/
+*.class
+
+# Node / Vite
+node_modules/
+dist/
