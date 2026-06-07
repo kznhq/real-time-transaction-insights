@@ -1,0 +1,5 @@
+# Python dependencies for producer.py and embedder.py
+confluent-kafka
+psycopg2-binary
+requests
+python-dotenv
