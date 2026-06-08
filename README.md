@@ -75,3 +75,4 @@ Everything runs locally — no Docker and no external API keys. All inference (e
 - **Protocol Buffers** — defines the `RAG.Query` service contract that the Go stubs are generated from.
 - **React + Vite** — the single-page frontend where users ask questions and watch answers stream in.
 - **Server-Sent Events (SSE)** — streams tokens from the gateway to the browser over plain HTTP.
+- **Claude Code** — almost exclusively used for development to learn how to use agentic coding
