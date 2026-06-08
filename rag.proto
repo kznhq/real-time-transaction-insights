@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package rag;
+
+option go_package = "fininsights/pb;pb";
+
+service RAG {
+  rpc Query(QueryRequest) returns (stream QueryResponse);
+}
+
+message QueryRequest {
+  string question = 1;
+}
+
+message QueryResponse {
+  string token = 1;
+}
