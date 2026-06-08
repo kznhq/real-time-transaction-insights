@@ -10,7 +10,7 @@ Everything runs locally — no Docker and no external API keys. All inference (e
 
 ![Sample query in the React frontend asking how much was spent at Steam, answered as $61.47](demo/sampleQuery.png)
 
-**Database ground truth — the `transactions` table in psql, confirming the LLM's answer is accurate:** the four Steam transactions ($15.93, $15.99, $12.87, $16.58) sum to exactly the **$61.47** the model reported above.
+**Database ground truth — the relevant entries in the `transactions` table in psql, confirming the LLM's answer is accurate:** the four Steam transactions ($15.93, $15.99, $12.87, $16.58) sum to exactly the **$61.47** the model reported above.
 
 ![psql query of the transactions table filtered to Steam, showing four rows that sum to $61.47](demo/dbPic.png)
 
